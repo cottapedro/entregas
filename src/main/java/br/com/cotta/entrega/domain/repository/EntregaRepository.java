@@ -1,9 +1,9 @@
 package br.com.cotta.entrega.domain.repository;
 
-import br.com.cotta.entrega.domain.model.Cliente;
+import br.com.cotta.entrega.domain.model.Entrega;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente,Long> {
+public interface EntregaRepository extends JpaRepository<Entrega, Long> {
 }

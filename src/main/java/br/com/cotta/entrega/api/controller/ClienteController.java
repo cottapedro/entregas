@@ -18,7 +18,6 @@ public class ClienteController {
 
     private ClienteRepository clienteRepository;
     private ClienteAssembler clienteAssembler;
-
     private ClienteService clienteService;
 
     @GetMapping
